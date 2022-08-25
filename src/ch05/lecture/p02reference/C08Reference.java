@@ -10,9 +10,14 @@ public class C08Reference {
 		b = changeArray(b);
 		System.out.println(b[0]);
 		
+		int[] c = {77, 88 };
+		c = changeArray(c);
+		System.out.println(c[0]);
+		
 		a[0] = 100;
 		System.out.println(a[0]); // 100
 		System.out.println(b[0]); // 2
+		System.out.println(c[0]); // 2 
 	}
 	
 	public static int[] changeArray(int[] arr) {
