@@ -3,6 +3,7 @@ package ch06.book.s060702;
 public class CarExample {
 	public static void main(String[] args) {
 		Car myCar = new Car("검정", 3000);
-		//Car myCar = new Car(); <- X 기본생성자를 호출할수없음
+		// Car myCar = new Car(); <- X 기본생성자를 호출할 수 없음
+		// Car(String color, int cc) <- 이렇게 선언했으니까~!
 	}
 }
