@@ -9,7 +9,8 @@ public class ActionExample {
 			}
 		};
 		
-//		Action action = new Class1(); 기존방법
+//		기존 방법 : 구현 클래스 만들기
+//		Action action = new Class1();
 		
 		action.work();
 	}
