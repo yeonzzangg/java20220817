@@ -1,6 +1,6 @@
 package p99leetcode;
 
-class Solution {
+class Solution1672{
     public int maximumWealth(int[][] accounts) {
         
         int max = 0;
@@ -10,8 +10,10 @@ class Solution {
             for(int j = 0; j <accounts[i].length; j++){
                 sum += accounts[i][j];
             }
+            
             if(sum > max) max = sum;
         }
         
         return max;
+}
 }
