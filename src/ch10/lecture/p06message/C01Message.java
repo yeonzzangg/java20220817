@@ -13,7 +13,7 @@ public class C01Message {
 		try {
 			method2();
 		} catch (Exception e) {
-			// 로그(메세지) 꼭 남기기
+//			 로그(메세지) 꼭 남기기
 //			System.out.println("익셉션 발생함!!");
 //			System.out.println(e.getMessage());
 			e.printStackTrace();
