@@ -2,8 +2,6 @@ package ch14.exercise.p6;
 
 import java.util.function.ToIntFunction;
 
-import ch14.book.exercise.p6.LambdaExample.Student;
-
 public class LambdaExample {
 	private static Student[] students = {
 			new Student("홍길동", 90, 96),
