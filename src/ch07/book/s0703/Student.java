@@ -7,4 +7,8 @@ public class Student extends People {
 		super(name, ssn);
 		this.studentNo = studentNo;
 	}
+
+	public Student(int i, String string) {
+		// TODO Auto-generated constructor stub
+	}
 }

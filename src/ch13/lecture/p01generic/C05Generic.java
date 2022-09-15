@@ -6,7 +6,7 @@ public class C05Generic {
 	public static void main(String[] args) {
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("3");
-//		list.add(6);
+//		list.add(6); 스트링타입 아님
 		list.add("6");
 		
 		String v1 = list.get(0);
