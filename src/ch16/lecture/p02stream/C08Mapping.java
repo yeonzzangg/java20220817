@@ -1,5 +1,6 @@
 package ch16.lecture.p02stream;
 
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class C08Mapping {
@@ -16,7 +17,16 @@ public class C08Mapping {
 				.sorted((a, b) -> b - a) // 거꾸로 정렬
 				.map(e -> "" + e)
 				.reduce((s1, s2) -> s1 + ", " + s2)
-				.get();
+				.get(); 
 		System.out.println(res);
+		
+		
+		String res1 = IntStream.of(3, 5, 9, 1, 0)
+				.boxed()
+				.sorted((a, b) -> b - a)
+				.map((s) -> String.valueOf(s))
+				.collect(Collectors.joining(", "));
+		
+		System.out.println(res1);
 	}
 }

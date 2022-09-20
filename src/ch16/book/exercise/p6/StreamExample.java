@@ -16,11 +16,6 @@ public class StreamExample {
 				.average()
 				.getAsDouble();
 		System.out.println(avg);
-		
-		double avg = 0.0;
-		for (Member member : )
-				
-				
 				
 		System.out.println("평균나이: " + avg);
 	}
