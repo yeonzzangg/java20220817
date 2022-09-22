@@ -6,7 +6,7 @@ import java.io.OutputStream;
 
 public class C03OutputStream {
 	public static void main(String[] args) throws Exception {
-		String name = "C:\\\\Users\\\\user\\\\Desktop\\\\output\\\\output3.txt";
+		String name = "C:\\Users\\user\\Desktop\\output\\output3.txt";
 		
 		OutputStream os = new FileOutputStream(name);
 		

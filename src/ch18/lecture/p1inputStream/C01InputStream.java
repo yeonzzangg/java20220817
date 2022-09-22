@@ -17,9 +17,9 @@ public class C01InputStream {
 		int r2 = is.read();
 		int r3 = is.read();
 		
-		System.out.println(r1);
-		System.out.println(r2);
-		System.out.println(r3);
+		System.out.println(r1); // p
+		System.out.println(r2); // a
+		System.out.println(r3); // c
 		
 		
 		is.close(); // 자원 사용 후 닫기 (꼭)

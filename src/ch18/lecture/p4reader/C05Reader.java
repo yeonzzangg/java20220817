@@ -4,7 +4,7 @@ import java.io.FileReader;
 
 public class C05Reader {
 	public static void main(String[] args) throws Exception {
-		// 409개 문자로 작성된 파일
+		// 429개 문자로 작성된 파일
 		String fileName = "src/ch18/lecture/p4reader/C03Reader.java";
 		FileReader fr = new FileReader(fileName);
 		
